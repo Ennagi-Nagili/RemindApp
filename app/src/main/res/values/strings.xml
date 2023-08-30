@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Einsen</string>
+    <string name="my_dashboard">My Dashboard</string>
+    <string name="do_it_now">Do it now</string>
+    <string name="urgent_and_important">Urgent and Important</string>
+    <string name="_15">15</string>
+    <string name="decide_when_to_do">Decide when to do</string>
+    <string name="important_not_urgent">Important Not Urgent</string>
+    <string name="_14">14</string>
+    <string name="delegate_it">Delegate it</string>
+    <string name="urgent_not_important">Urgent Not Important</string>
+    <string name="_04">04</string>
+    <string name="dump_it">Dump it</string>
+    <string name="not_important_not_urgent">Not Important Not Urgent</string>
+    <string name="_11">11</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_task">Add Task</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="importance">Importance</string>
+    <string name="urgency">Urgency</string>
+    <string name="save_task">Save Task</string>
+    <string name="dribble_shot">Dribble Shot</string>
+    <string name="finish_einsen_app_ui_ux">Finish Einsen App UI/UX</string>
+    <string name="_03">03</string>
+    <string name="complete">Complete</string>
+    <string name="task_details">Task Details</string>
+    <string name="all_task">All Task</string>
+    <string name="hide_completed">👀 Hide completed</string>
+    <string name="about_us">About us</string>
+    <string name="attributions_license"><![CDATA[Attributions & License]]></string>
+    <string name="licensed_under_apache_2_0">Licensed Under Apache 2.0</string>
+    <string name="visit">Visit</string>
+    <string name="https_github_com_spikeysanju_einsen">https://github.com/Spikeysanju/Einsen</string>
+    <string name="author">Author</string>
+    <string name="made_with_spikey_sanju">Made with ❤️ Spikey Sanju</string>
+    <string name="category">Category</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.allTasks.AllTaskFragment">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arrow"
+        android:background="@drawable/arrow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="38dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/all_task"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/todo"
+        android:background="@drawable/mini_button_black"
+        app:layout_constraintTop_toBottomOf="@id/arrow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="34dp"
+        android:text="Todo"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doing"
+        android:background="@drawable/mini_button_white"
+        app:layout_constraintTop_toBottomOf="@id/arrow"
+        app:layout_constraintLeft_toRightOf="@id/todo"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="31dp"
+        android:text="Doing"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done"
+        android:background="@drawable/mini_button_white"
+        app:layout_constraintTop_toBottomOf="@id/arrow"
+        app:layout_constraintLeft_toRightOf="@id/doing"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="31dp"
+        android:text="Done"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tasks"
+        app:layout_constraintTop_toBottomOf="@id/todo"
+        android:layout_marginTop="52dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tasks"
+        android:layout_marginTop="50dp"
+        android:text="@string/hide_completed"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:background="@drawable/add_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="34dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
